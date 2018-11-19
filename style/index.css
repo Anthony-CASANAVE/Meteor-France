@@ -1,8 +1,15 @@
 
-#navHead {
+#navHead, footer {
     background-color: #ff8000;
 }
 
-footer{    
-    background-color: lightblue;
+
+#footer-list{
+    color: black;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a:link{
+    color: red;
 }
