@@ -1,3 +1,7 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
 #navHead, footer {
     background-color: #ff8000;
@@ -7,12 +11,16 @@
     background-color: black;
 }
 
-.social {
-    background-color: #ff8000;
-    text-align: center;
-    margin: 15px;
-    height:
+.row .social {
+    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    background-color: #ff8000;  
+    font-size: 1.9em;
+    border-radius: 5px;
 }
+
 
 #footer-list{
     color: black;
