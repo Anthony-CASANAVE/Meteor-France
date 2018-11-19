@@ -26,15 +26,20 @@
     color: black;
     text-align: center;
     font-size: 0.8em;
+    padding: 0.5em;
 }
 
 footer a:link, footer a:visited{
     color: black;
 }
 
+#v-pills-tabContent img{
+    width: 50%;
+    height: auto;
+}
 
-
-
-
+.inline{
+    display: inline;
+}
 
 
