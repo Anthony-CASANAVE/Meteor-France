@@ -42,4 +42,7 @@ footer a:link, footer a:visited{
     display: inline;
 }
 
-
+.btn-dark{
+    width: 10em;
+    min-width: 6em;
+}
