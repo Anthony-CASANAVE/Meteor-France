@@ -63,3 +63,8 @@ footer a:link, footer a:visited{
 .inline{
     display: inline;
 }
+
+button.btn-dark{
+    height: 100%;
+    width: 100%;
+}
