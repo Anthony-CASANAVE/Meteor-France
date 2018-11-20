@@ -7,6 +7,10 @@ body {
     background-color: #5f5f5f;
 }
 
+.margeS {
+    margin-bottom: 0.5em;
+}
+
 #navHead, footer {
     background-color: #ff0000;
 }
