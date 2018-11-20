@@ -27,6 +27,7 @@
     padding: 10px;
     font-size: 1.9em;
     border-radius: 10px;
+    background-size: cover;
     background-color: red;
 }
 
@@ -47,7 +48,7 @@ footer a:link, footer a:visited{
 }
 
 #v-pills-tabContent img{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -55,7 +56,3 @@ footer a:link, footer a:visited{
     display: inline;
 }
 
-.btn-dark{
-    width: 10em;
-    min-width: 6em;
-}
