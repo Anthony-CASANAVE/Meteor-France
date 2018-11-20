@@ -4,23 +4,37 @@
 }
 
 #navHead, footer {
-    background-color: #ff8000;
+    background-color: #ff0000;
 }
 
 #coeur {
     background-color: black;
 }
 
-.row .social {
-    
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0.5em;
-    background-color: #ff8000;  
-    font-size: 1.9em;
-    border-radius: 5px;
+.titre {
+    color: red;
 }
 
+.btn-group button {
+    background-color: black;
+}
+
+.socialNav {
+    margin-top: 1.5em;
+}
+
+.row .social {
+    padding: 10px;
+    font-size: 1.9em;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: red;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
 
 #footer-list{
     color: black;
