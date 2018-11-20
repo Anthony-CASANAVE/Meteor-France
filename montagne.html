@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    __________Bootstrap____________-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--     __________Bootstrap____________-->
+
+    <!--    __________Jquery____________-->
+
+    <script src="script/jquery-3.3.1.js"></script>
+
+    <!--    __________Jquery____________-->
+
+    <link href="style/index.css" type="text/css" rel="stylesheet">
+
+    <!--    __________Font Awesome____________-->
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <title>Meteor France Montagnes</title>
+
+</head>
+
+<body>
+    <header>
+
+        <nav id="navHead" class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="#">Meteor France</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accueil </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">France</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Montagnes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Plages</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!--Coeur de la page -->
+
+    <div id="coeur" class="container">
+
+        <div class="row">
+
+            <img class="col-sm-2" src="img/#" alt="Logodelamort">
+            <h1 class="col-sm-6">Météo et climat</h1>
+
+            <span class="social"><i class="fab fa-facebook-square fa-lg"></i></span>
+
+            <span class="social"><i class="fab fa-twitter-square fa-lg"></i></span>
+
+            <span class="social"><i class="fab fa-instagram fa-lg"></i></span>
+
+            <span class="social"><i class="fab fa-youtube fa-lg"></i></span>
+
+
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-3 justify-content-end">
+
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vendredi
+                    </button>
+
+                    <div class="dropdown-menu">
+
+
+
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                            <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+
+                            <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
+
+                            <a class="nav-link btn-dark " id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">12 H - 18H</a>
+
+                            <a class="nav-link btn-dark" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 0H</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+            </div>
+
+            <div class="col-9">
+
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                        <img class="inline" src="img/map.jpg" alt="">
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                        <img class="inline" src="img/map.jpg" alt="">
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                        <img class="inline" src="img/map.jpg" alt="">
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        ...
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <span></span>
+
+
+
+    </div>
+
+
+
+    <!-- Bas de la page -->
+
+
+    <footer>
+
+
+        <div id="footer-list">
+
+            <a href="">Accessibilité</a>
+            <span> | </span>
+            <a href="">Mentions légales</a>
+            <span> | </span>
+            <a href="">Droits de reproduction</a>
+            <span> | </span>
+            <a href="">Gestion des cookies</a>
+            <span> | </span>
+            <a href="">Aide</a>
+            <span> | </span>
+            <a href="">Contact</a>
+            <span> | </span>
+            <a href="">Publicité</a>
+            <span> | </span>
+            <a href="">Presse</a>
+            <span> | </span>
+            <a href="">Rejoindre Météor-France</a>
+            <span> | </span>
+            <a href="">Marchés publics</a>
+            <span> | </span>
+            <a href="">Informations environnementales</a>
+            <span> | </span>
+            <a href="">Presse</a>
+            <span> | </span>
+            <a href="">Plan du site</a>
+
+        </div>
+
+    </footer>
+
+
+
+    <!--    __________Bootstrap____________-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--    __________Bootstrap____________-->
+
+
+
+    <script src="script/index.js"></script>
+
+</body>
+
+
+</html>
