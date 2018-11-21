@@ -81,6 +81,18 @@ button.btn-dark{
     padding-bottom: 1em;
 }
 
+.marginR{
+    border: 1px solid black;
+}
+
 .center{
     text-align: center;
+}
+
+.fontWhite{
+    color: white;
+}
+
+.border1SB{
+    border: 1px solid black;
 }
