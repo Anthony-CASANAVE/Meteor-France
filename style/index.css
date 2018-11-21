@@ -5,10 +5,12 @@
 
 body {
     background-color: #5f5f5f;
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
 }
 
 .margeS {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 #navHead, footer {
