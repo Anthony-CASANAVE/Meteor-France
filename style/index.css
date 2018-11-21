@@ -68,3 +68,17 @@ button.btn-dark{
     height: 100%;
     width: 100%;
 }
+
+.maxWidth{
+    width: 100%;
+}
+
+
+.padding-B-T-1em{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.center{
+    text-align: center;
+}
