@@ -76,7 +76,7 @@
 
     <div id="coeur" class="container">
 
-        <div class="row">
+        <div class="row margeS">
 
             <img class="logo" src="img/meteor_logo.png" alt="Logodelamort">
 
@@ -85,7 +85,7 @@
                 <p>De toute façon demain, il pleuvra ...</p>
             </div>
 
-            <div class="socialNav btn-group btn-sm col-4 offset-4" role="group">
+            <div class="socialNav btn-group btn-sm col-4 offset-sm-4" role="group">
                 <button type="button" class="btn"><span class="social"><i class="fab fa-facebook-square fa-lg"></i></span></button>
 
                 <button type="button" class="btn"> <span class="social"><i class="fab fa-twitter-square fa-lg"></i></span></button>
@@ -101,7 +101,7 @@
 
         <div class="row">
 
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-3">
 
 
                 <div class="accordion" id="accordionDays">
@@ -120,19 +120,27 @@
 
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionDays">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionDays">
 
                             <div class="card-body">
 
                                 <div class="nav flex-column nav-pills" id="v-pills-vendredi-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-vendredi1-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link active btn-dark" id="v-pills-vendredi1-tab" data-toggle="pill" href="#v-pills-vendredi1" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                        0h - 6H
+                                    </a>
 
-                                    <a class="nav-link btn-dark " id="v-pills-vendredi2-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
+                                    <a class="nav-link btn-dark " id="v-pills-vendredi2-tab" data-toggle="pill" href="#v-pills-vendredi2" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                        6H - 12H
+                                    </a>
 
-                                    <a class="nav-link btn-dark " id="v-pills-vendredi3-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">12 H - 18H</a>
+                                    <a class="nav-link btn-dark " id="v-pills-vendredi3-tab" data-toggle="pill" href="#v-pills-vendredi3" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                        12 H - 18H
+                                    </a>
 
-                                    <a class="nav-link btn-dark" id="v-pills-vendredi4-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 24H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-vendredi4-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                        16H - 24H
+                                    </a>
 
                                 </div>
 
@@ -162,7 +170,7 @@
 
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
 
                                     <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
 
@@ -191,11 +199,12 @@
                             </h5>
 
                         </div>
+
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionDays">
                             <div class="card-body">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
 
                                     <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
 
@@ -204,24 +213,33 @@
                                     <a class="nav-link btn-dark" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 24H</a>
 
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
 
                     <div class="card bg-dark">
+
                         <div class="card-header" id="headingFour">
+
                             <h5 class="mb-0">
+
                                 <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     Lundi
                                 </button>
+
                             </h5>
+
                         </div>
+
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionDays">
                             <div class="card-body">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
 
                                     <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
 
@@ -230,24 +248,35 @@
                                     <a class="nav-link btn-dark" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 24H</a>
 
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
 
                     <div class="card bg-dark">
+
                         <div class="card-header" id="headingFive">
+
                             <h5 class="mb-0">
+
                                 <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     Mardi
                                 </button>
+
                             </h5>
+
                         </div>
+
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionDays">
+
                             <div class="card-body">
+
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
 
                                     <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
 
@@ -256,24 +285,35 @@
                                     <a class="nav-link btn-dark" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 24H</a>
 
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
 
                     <div class="card bg-dark">
+
                         <div class="card-header" id="headingSix">
+
                             <h5 class="mb-0">
+
                                 <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                     Mercredi
                                 </button>
+
                             </h5>
+
                         </div>
+
                         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionDays">
+
                             <div class="card-body">
+
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
 
                                     <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
 
@@ -282,24 +322,33 @@
                                     <a class="nav-link btn-dark" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 24H</a>
 
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
 
                     <div class="card bg-dark">
+
                         <div class="card-header" id="headingSeven">
+
                             <h5 class="mb-0">
+
                                 <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                     Jeudi
                                 </button>
+
                             </h5>
+
                         </div>
+
                         <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionDays">
                             <div class="card-body">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                                    <a class="nav-link active btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
+                                    <a class="nav-link btn-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0h - 6H</a>
 
                                     <a class="nav-link btn-dark " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">6H - 12H</a>
 
@@ -308,61 +357,53 @@
                                     <a class="nav-link btn-dark" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">16H - 24H</a>
 
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
-
-
-
-
-
-
-
-
-
 
                 </div>
 
-
-
-
             </div>
 
-
-
-            <div class="col-5">
+            <div class="col-12 col-sm-6 col-md-5">
 
                 <div class="tab-content" id="v-pills-tabContent">
 
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="tab-pane fade show active" id="v-pills-vendredi1" role="tabpanel" aria-labelledby="v-pills-vendredi1">
 
                         <img class="inline img-size" src="img/map.jpg" alt="">
 
                     </div>
 
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="tab-pane fade" id="v-pills-vendredi2" role="tabpanel" aria-labelledby="v-pills-vendredi2">
 
                         <img class="inline img-size" src="img/map.jpg" alt="">
 
                     </div>
 
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="tab-pane fade" id="v-pills-vendredi3" role="tabpanel" aria-labelledby="v-pills-vendredi3">
 
                         <img class="inline img-size" src="img/map.jpg" alt="">
 
                     </div>
 
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        ...
+                    <div class="tab-pane fade" id="v-pills-vendredi4" role="tabpanel" aria-labelledby="v-pills-vendredi4">
+                        fbxdfghwdhstwdtjsryjstykstyrhjsytkryjqetjqryksryjhqetjqryjsryujqrs
                     </div>
 
                 </div>
 
             </div>
 
-            <div class=" col-4">
+            <div class="col-12 col-sm-12 col-md-4 margeS">
 
-                <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="500" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a>
+                <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="448" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">
+                    Tweets by TwitterDev
+                </a>
+
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
