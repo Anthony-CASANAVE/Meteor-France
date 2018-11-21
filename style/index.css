@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 .margeS {
-    margin-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 #navHead, footer {
@@ -23,6 +24,11 @@ body {
 
 .titre {
     color: red;
+}
+
+.formulaire {
+    margin-top: 2em;
+    
 }
 
 .btn-group button {
