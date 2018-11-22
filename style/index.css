@@ -14,9 +14,8 @@ body {
     padding-bottom: 2em;
 }
 
-#navHead,
-footer {
-    background-color: #ff0000;
+#navHead, footer {
+    background-color: #b40000;
 }
 
 #coeur {
@@ -25,6 +24,7 @@ footer {
 
 .titre {
     color: red;
+    padding: 0.5em;
 }
 
 .formulaire {
@@ -40,12 +40,17 @@ footer {
     margin-top: 1.5em;
 }
 
-.row .social {
-    padding: 10px;
+.social {
+    padding: 5px;
     font-size: 1.9em;
     border-radius: 10px;
     background-size: cover;
     background-color: red;
+}
+
+.navL{
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .logo {
