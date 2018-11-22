@@ -14,7 +14,8 @@ body {
     padding-bottom: 2em;
 }
 
-#navHead, footer {
+#navHead,
+footer {
     background-color: #ff0000;
 }
 
@@ -28,7 +29,7 @@ body {
 
 .formulaire {
     margin-top: 2em;
-    
+
 }
 
 .btn-group button {
@@ -53,76 +54,102 @@ body {
     padding: 0.5em;
 }
 
-#footer-list{
+#footer-list {
     color: black;
     text-align: center;
     font-size: 0.6em;
     padding: 0.5em;
 }
 
-footer a:link, footer a:visited{
+footer a:link,
+footer a:visited {
     color: black;
 }
 
-#v-pills-tabContent img{
+#v-pills-tabContent img {
     width: 100%;
     height: auto;
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
-button.btn-dark{
+button.btn-dark {
     height: 100%;
     width: 100%;
 }
 
-.maxWidth{
+.maxWidth {
     width: 100%;
 }
 
-.block{
+.block {
     display: block;
 }
 
-.padding-B-T-1em{
+.padding-B-T-1em {
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-.marginR{
+.border-B-T-1em {
+    border-top: 1em;
+    border-bottom: 1em;
+}
+
+.marginR {
     border: 1px solid black;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.fontWhite{
+.fontWhite {
     color: white;
 }
 
-.fontWhiteHover:hover{
+.fontWhiteHover:hover {
     color: white;
 }
 
-.fontBlack{
+.fontBlack {
     color: black;
 }
 
-.fontRed{
+.fontRed {
     color: red;
 }
 
-.border1SB{
+.border1SB {
     border: 1px solid black;
 }
 
-.redBorder{
+.redBorder {
     border: 1px solid red;
 }
 
-.maxHeight{
+.maxHeight {
     height: 100%;
+}
+
+.pushToCenter {
+    position: relative;
+    top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.fixingTo100Vh{
+    height: 100%;
+}
+
+.fixingButtons{
+   padding-bottom: 6em;
+    
 }
