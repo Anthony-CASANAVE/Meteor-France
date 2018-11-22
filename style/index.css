@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #5f5f5f;
+    background-color: black;
     font-family: 'Volkhov', serif;
     font-size: 20px;
 }
@@ -39,7 +39,7 @@ body {
     margin-top: 1.5em;
 }
 
-.social {
+.row .social {
     padding: 10px;
     font-size: 1.9em;
     border-radius: 10px;
@@ -47,18 +47,10 @@ body {
     background-color: red;
 }
 
-.social:hover {
-    padding: 10px;
-    font-size: 1.9em;
-    border-radius: 10px;
-    background-size: cover;
-    background-color: #910000;
-}
-
-
 .logo {
     height: 100px;
     width: 100px;
+    padding: 0.5em;
 }
 
 #footer-list{
@@ -99,11 +91,6 @@ button.btn-dark{
     padding-bottom: 1em;
 }
 
-.border-B-T-1em{
-    border-top: 1em;
-    border-bottom: 1em;
-}
-
 .marginR{
     border: 1px solid black;
 }
@@ -138,9 +125,4 @@ button.btn-dark{
 
 .maxHeight{
     height: 100%;
-}
-
-.pushDown{
-    margin-top: auto;
-    margin-bottom: 0;
 }
