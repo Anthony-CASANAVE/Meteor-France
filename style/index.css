@@ -99,6 +99,10 @@ button.btn-dark{
     color: white;
 }
 
+.fontWhite:hover{
+    color: white;
+}
+
 .border1SB{
     border: 1px solid black;
 }
