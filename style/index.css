@@ -39,13 +39,22 @@ body {
     margin-top: 1.5em;
 }
 
-.row .social {
+.social {
     padding: 10px;
     font-size: 1.9em;
     border-radius: 10px;
     background-size: cover;
     background-color: red;
 }
+
+.social:hover {
+    padding: 10px;
+    font-size: 1.9em;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: #910000;
+}
+
 
 .logo {
     height: 100px;
