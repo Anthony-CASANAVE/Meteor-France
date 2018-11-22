@@ -59,11 +59,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rads/Aire</a>
+                        <a class="nav-link" href="rads-air.html">Rads/Aire</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rads/Eau</a>
+                        <a class="nav-link" href="rad-eau.html">Rads/Eau</a>
                     </li>
 
                     <li class="nav-item">
@@ -95,7 +95,7 @@
             <img class="logo" src="img/meteor_logo.png" alt="Logodelamort">
 
             <div class="titre">
-                <h1>Météor et climat</h1>
+                <h1>Radiation des mers</h1>
                 <p>De toute façon demain, il pleuvra ...</p>
             </div>
 
@@ -113,158 +113,144 @@
 
 <!--Vrai fin du header-->
 
-        <div class="row formulaire ">
+        <div class="row">
 
-            <div class="container col-12 col-md-6 fixingButtons">
+            <div class="col-12 col-sm-6 col-md-3">
 
-                <div class="row fixingTo100Vh">
-
-                    <div class="offset-1 offset-md-2"></div>
-
-                    <div class="card col-10 col-md-9 maxWidth maxHeight bg-black fontWhite redBorder border-B-T-1em ">
-
-                        <div class="card-body  bg-black fontRed">
-
-                            <h5 class="card-title center fontRed">Informations personelles</h5>
-
-                            <div class="card-text ">
+                <div class="bg-dark maxWidth navL">
 
 
-                                <span class="padding-B-T-1em block ">
-                                    Nom :
-                                    <div class="fontWhite">- Verne -</div>
-                                </span>
+                    <div class="btn-group-lg maxWidth padding-B-T-1em bg-dark center" role="button">
 
-                                <span class="padding-B-T-1em block">
-                                    Prénom:
-                                    <div class="fontWhite">- Jules -</div>
-                                </span>
+                        <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle center  maxWidth border1SB" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Vendredi 23/11
+                        </button>
 
-                                <span class="padding-B-T-1em block">
-                                    Adresse :
-                                    <div class="fontWhite">- 42 rue du Kraken, Nantes, 44300 -</div>
-                                </span>
+                        <div class="dropdown-menu dropdown-menu-right bg-dark" aria-labelledby="btnGroupDrop1">
 
-                                <span class="padding-B-T-1em block">
-                                    E-mail :
-                                    <div class="fontWhite">- jules.verne@book.com -</div>
-                                </span>
+                            <a class="dropdown-item center btn-dark fontWhite" href="01_Samedi.html"> Samedi 24/11</a>
 
-                            </div>
+                            <a class="dropdown-item center btn-dark fontWhite" href="02_Dimanche.html"> Dimanche 25/11</a>
 
+                            <a class="dropdown-item center btn-dark fontWhite" href="03_Lundi.html"> Lundi 26/11</a>
 
+                            <a class="dropdown-item center btn-dark fontWhite" href="04_Mardi.html"> Mardi 27/11</a>
+
+                            <a class="dropdown-item center btn-dark fontWhite" href="05_Mercredi.html"> Mercredi 28/11</a>
+
+                            <a class="dropdown-item center btn-dark fontWhite" href="06_Jeudi.html"> Jeudi 29/11</a>
 
                         </div>
 
                     </div>
 
-                    <div class="offset-1"></div>
+                    <div class="btn-group-vertical btn-group-toggle maxWidth" data-toggle="buttons">
 
-                    <div class="row maxWidth">
+                        <label class="btn btn-secondary">
 
-                        <div class="offset-1 offset-md-2"></div>
+                            <a class="btn fontWhite fontWhiteHover" href="#" role="button">0h - 6h</a>
 
-                        <div class=" col-10 col-md-9">
+                        </label>
 
-                            <div class="center pushToCenter">
-                                <a href="#" class="btn social fontBlack fontWhiteHover ">Altérer</a>
+                        <label class="btn btn-secondary">
 
-                            </div>
+                            <a class="btn fontWhite fontWhiteHover" href="#" role="button">6h - 12h</a>
 
-                            <div class="block"></div>
+                        </label>
+
+                        <label class="btn btn-secondary">
+
+                            <a class="btn fontWhite fontWhiteHover" href="#" role="button">12h - 18h</a>
+
+                        </label>
+
+                        <label class="btn btn-secondary">
+                            <a class="btn fontWhite fontWhiteHover" href="#" role="button">18h - 00h</a>
+                        </label>
+
+                    </div>
+                    <br><br>
+
+                    <div class="btn-group-vertical btn-group-toggle maxWidth" data-toggle="buttons">
+
+                        <label class="btn btn-secondary active">
+
+                            <input type="radio" name="options" id="meteo" autocomplete="off" checked>Météo
+                        </label>
+
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="temperature" autocomplete="off">Température
+                        </label>
+
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="humidite" autocomplete="off">Humidité
+                        </label>
+
+                    </div>
+
+                    <br>
+
+                    <form>
+
+
+                        <div>
+
+                            <input type="text" class="form-control btn-dark center fontWhite border1SB" id="inputAddress" placeholder="Ville - Code postal">
 
                         </div>
 
-                        <div class="offset-1"></div>
+                    </form>
 
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-5">
+
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="collapse multi-collapse fade show active" id="vendredi1" role="tabpanel" aria-labelledby="vendredi1">
+
+                        <img class="inline img-size" src="img/map-vendredi1.jpg" alt="">
+
+                    </div>
+
+                    <div class="collapse multi-collapse fade" id="vendredi2" role="tabpanel" aria-labelledby="vendredi2">
+
+                        <img class="inline img-size" src="img/map-vendredi2.jpg" alt="">
+
+                    </div>
+
+                    <div class="collapse multi-collapse fade" id="vendredi3" role="tabpanel" aria-labelledby="vendredi3">
+
+                        <img class="inline img-size" src="img/map-vendredi3.jpg" alt="">
+
+                    </div>
+
+                    <div class="collapse multi-collapse fade" id="vendredi4" role="tabpanel" aria-labelledby="vendredi4">
+
+                        <img class="inline img-size" src="img/map-vendredi4.jpg" alt="">
                     </div>
 
                 </div>
 
             </div>
 
-            <div class="container col-12 col-md-6 paddingTop4Em fixingButtons">
+            <div class="col-12 col-sm-12 col-md-4 margeS">
 
-                <div class="row fixingTo100Vh">
+                <a class="twitter-timeline" data-lang="fr" data-width="100%" data-height="495" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">
+                    Tweets by TwitterSatan
+                </a>
 
-                    <div class="offset-1"></div>
-
-
-
-                    <div class="card text-right maxWidth maxHeight col-10 col-md-9  bg-black fontWhite redBorder border-B-T-1em">
-
-                        <div class="card-body bg-black fontRed">
-
-                            <h5 class="card-title center fontRed">Préférences</h5>
-
-                            <div class="card-text">
-
-                                <span class="padding-B-T-1em block">
-                                    Temps d'archivage :
-                                    <div class="fontWhite">- 2 jours -</div>
-                                </span>
-
-                                <span class="padding-B-T-1em block">
-                                    Zones d'interet :
-                                    <div class="fontWhite">- Paris -</div>
-                                    <div class="fontWhite">- 42 rue du Kraken, Nantes, 44300 -</div>
-                                    <div class="fontWhite">- 42000 -</div>
-                                </span>
-
-                                <span class="padding-B-T-1em block">
-                                    Visibilité du profile :
-                                    <div class="fontWhite">- Privé -</div>
-                                </span>
-
-                                <span class="padding-B-T-1em block">
-                                    NewsLetter
-                                    <div class="fontWhite">- Activée -</div>
-                                </span>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
-                            </div>
-
-
-
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="offset-md-2 offser-1"></div>
-
-                    <div class="row maxWidth positionR">
-
-                        <div class="offset-1"></div>
-
-                        <div class=" col-10 col-md-9">
-
-                            <div class="center pushToCenter">
-                                <a href="#" class="btn social fontBlack fontWhiteHover">Altérer</a>
-                                <div class="block"></div>
-
-                            </div>
-                        </div>
-
-                        <div class="offset-1"></div>
-                    </div>
-                </div>
             </div>
 
         </div>
 
-
-
-
-
-
-
-    </div> <!-- Fin du container Bootstrap -->
-
-
-
+    </div>
 
 
     <!-- Bas de la page -->
