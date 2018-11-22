@@ -81,6 +81,9 @@ button.btn-dark{
     width: 100%;
 }
 
+.block{
+    display: block;
+}
 
 .padding-B-T-1em{
     padding-top: 1em;
@@ -103,6 +106,22 @@ button.btn-dark{
     color: white;
 }
 
+.fontBlack{
+    color: black;
+}
+
+.fontRed{
+    color: red;
+}
+
 .border1SB{
     border: 1px solid black;
+}
+
+.redBorder{
+    border: 1px solid red;
+}
+
+.maxHeight{
+    height: 100%;
 }
